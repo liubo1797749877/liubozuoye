@@ -1,0 +1,59 @@
+.information{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #d3dbe1;
+  h3{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  p{
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+  .fieldset{
+    margin: auto;
+    span{
+      margin: auto;
+      display: block;
+      text-align: left;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  width: 100%;
+}
+.hobby{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  a{
+    text-decoration: none;
+    img{
+      width: 200px;
+      margin: 50px;
+    }
+    img:hover{
+      -webkit-transform: scale(3.0); -moz-transform: scale(0.1); -o-transform: scale(1.1); -ms-transform: scale(1.1);
+    }
+  }
+
+}
+.work{
+  .wdzq{
+    font-size: 40px;
+    text-decoration:none;
+    padding: 20px 0;
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+  h2{
+    text-align: center;
+    }
+  }
+}
